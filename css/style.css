@@ -731,8 +731,16 @@ h2.resp-accordion {
 .contact-header h3 span {
 color: #fefefe;
 }
+
 .contact-header p {
-	line-height: 1.1em;
+	line-height: .2sem;
+	font-size: 1.2em;
+	color: #fefefe;
+	padding: 25px 0;
+
+	
+}
+.contact-header a {
 	font-size: 1.5em;
 	color: #fefefe;
 	padding: 25px 0;
