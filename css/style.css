@@ -37,7 +37,7 @@ body{
 	
 }
 .header{
-	background: url("../images/banner.jpg") no-repeat center top;
+	background: linear-gradient(rgba(0,0,0,0.1),rgba(0,0,0,0.6)), url("../images/banner.jpg") no-repeat center top;
 	-webkit-background-size: cover;
 	-moz-background-size: cover;
 	-o-background-size: cover;
@@ -45,6 +45,7 @@ body{
 	background-position: center;
 	background-size:cover;
 	min-height: 550px;
+	
 }
 .header-top {
 	padding-top: 3em;
@@ -144,25 +145,32 @@ nav a:focus {
 	top: 40%;
 	left: 25%;
 	text-align: center;
+	-webkit-text-stroke: .3px rgb(248, 248, 248);
+	color: transparent; 
 
 }
 .banner_center h1 {
-	color: #7D7979;
+	
+	color: white;
 	font-family: 'Arvo',arial;
 	text-transform: uppercase;
 	font-size: 2.4em;
 }
 .banner_center h2 {
-	color: #7D7979;
+	/* color: #7D7979; */
+	color: white;
 	font-family: 'Arvo',arial;
 	text-transform: uppercase;
 	font-size: 2.4em;
 	padding:7px 0;
+	
 }
 .banner_center h2 span
 {
 	color: #5E8D09;
 	font-weight: 900;
+	/* -webkit-text-stroke: .5px rgb(248, 248, 248);
+	color: transparent;  */
 }
 .wmuSliderPagination {
 	z-index: 2;
@@ -211,7 +219,7 @@ ul.wmuSliderPagination {
 	font-size: 2.5em;
 	font-family: 'Arvo'arial;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 600;
 	color: #93B904;
 }
 .services-header h3 span {
@@ -219,9 +227,9 @@ ul.wmuSliderPagination {
 }
 .services-header p{
 	line-height: 1.5em;
-	font-size: 15px;
 	color: #7e7e7e;
 	padding: 25px 0;
+	font-size: 1.4em;
 }
 .services-sectiongrids {
 	text-align: center;
@@ -252,12 +260,14 @@ ul.wmuSliderPagination {
 	width: 85%;
 	margin: 0 auto;
 }
+
+
 .works-header h3
 {
 	font-size: 2.5em;
 	font-family: 'Arvo', arial;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 600;
 	color: #93B904;
 }
 .works-header h3 span {
@@ -265,10 +275,10 @@ ul.wmuSliderPagination {
 }
 .works-header p{
 	line-height: 1.5em;
-	
-	font-size: 15px;
 	color: #fefefe;
 	padding: 25px 0;
+	font-size: 1.4em;
+
 }
 .portfolio-section{
 	background:#FFD670;
@@ -630,9 +640,10 @@ h2.resp-accordion {
 }
 .about-header h3 {
 	font-size: 2.5em;
+
 	font-family: 'Arvo', arial;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 600;
 	color: #93B904;
 }
 .about-header h3 span {
@@ -652,11 +663,19 @@ h2.resp-accordion {
 	float: left;
 	width: 65%;
 	margin-top:3%; 
+	text-align: left;
 }
 .about-text p {
-	font-size: 15px;
+	font-size: 1.7em;
 	color: #7e7e7e;
 	line-height: 1.5em;
+
+}
+.about-text h4 {
+	font-size: 1.4em;
+	color: #7e7e7e;
+	line-height: 1.5em;
+
 }
 .about-sectiongrids{
 	padding: 40px 0px;
@@ -706,17 +725,19 @@ h2.resp-accordion {
 	font-size: 2.5em;
 	font-family: 'Arvo', arial;
 	text-transform: uppercase;
-	font-weight: 400;
+	font-weight: 600;
 	color: #93B904;
 }
 .contact-header h3 span {
 color: #fefefe;
 }
 .contact-header p {
-	line-height: 1.5em;
-	font-size: 15px;
+	line-height: 1.1em;
+	font-size: 1.5em;
 	color: #fefefe;
 	padding: 25px 0;
+
+	
 }
 .social-icon {
 text-align: center;
